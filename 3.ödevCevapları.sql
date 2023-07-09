@@ -1,15 +1,12 @@
---select country from country
---where country like 'A%a'
+--select distinct replacement_cost from film
 
+--select count(distinct replacement_cost) from film
 
---select country from country
---where country like '_____n'
+--select count(*) from film
+--where title like 'T%' and rating ='G'
 
+--select count(country) from country
+--where 
 
---select title from film 
---where title like '%t%'
-
-
-select title from film 
-where title like 'C%' and rental_rate=2.99 and length>90
-
+--select count(*) from city
+--where city like 'r%' or city like 'R%'
